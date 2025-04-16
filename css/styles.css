@@ -1,0 +1,41 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    position: static;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: greenyellow;
+    padding: 10px;
+    z-index: 100;
+}
+
+section{
+    position: relative;
+}
+
+aside{
+    background-color: greenyellow;
+    position: absolute;
+    left: 400px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    
+}
